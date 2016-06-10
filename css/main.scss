@@ -1,0 +1,27 @@
+---
+# Main scss file
+---
+@charset "utf-8";
+
+@import
+  'normalize',
+  'solo',
+  'syntax';
+
+.image_full{
+   display:block;
+  }
+
+ .image_mobile{
+  display:none;
+ }
+
+@media (max-width: 1300px) and (min-width: 320px){
+  .image_full{
+   display:none;
+  }
+
+  .image_mobile{
+   display:block;
+  }
+}
