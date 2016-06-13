@@ -4,7 +4,7 @@ layout: default
 
 {::options parse_block_html="true" /}
 
-Live plotting that **just works** <br/>and helps you fight with machines.
+Live plotting that **just works**.
 
 <br/><object data="https://plotti.co/random_sample" type="image/svg+xml" style="width: 570px; height: 190px;"/>
 
